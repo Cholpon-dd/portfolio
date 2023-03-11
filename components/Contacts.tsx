@@ -45,9 +45,9 @@ export default function Contacts() {
                     Frontend Developer
                   </p>
                   <p className="py-2 text-gray-600 text-xl">
-                    Let's build something interesting together.
+                    Let&#39;s build something interesting together.
                   </p>
-                  <p className="py-2 text-gray-600 text-xl">Contact me and let's talk.</p>
+                  <p className="py-2 text-gray-600 text-xl">Contact me and let&#39;s talk.</p>
                 </div>
                 <div>
                   <div className="flex items-center justify-between py-4">

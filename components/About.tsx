@@ -13,17 +13,17 @@ export default function About() {
           <div className="col-span-2">
             <p className="py-4 text-gray-600 text-xl tracking-wide font-semibold">
               I specialize in building mobile responsive front-end UI applications that connect with
-              API's and other backend technologies. I`m passionate about learning new technologies
-              and understand there is more than one way to accomplish a task. Though I am most
-              proficient in building front-end applications using HTML, CSS, Javascript, and React,
-              I am a quick learner and can pick up new tech stacks as needed. I believe that being a
-              great developer is not using one specific language, but choosing the best tool for the
-              job.
+              API&#39;s and other backend technologies. I&#39;m passionate about learning new
+              technologies and understand there is more than one way to accomplish a task. Though
+              I&#39;m most proficient in building front-end applications using HTML, CSS,
+              Javascript, and React, I&#39;m a quick learner and can pick up new tech stacks as
+              needed. I believe that being a great developer is not using one specific language, but
+              choosing the best tool for the job.
             </p>
             <p className="py-2 text-gray-600 text-xl tracking-wide font-semibold">
               My skills also extend beyond front-end development, and I have experience working with
-              back-end technologies such as Node.js and MongoDB. I am constantly learning and
-              adapting to new technologies, and I'm always excited to take on new challenges.
+              back-end technologies such as Node.js and MongoDB. I&#39;m constantly learning and
+              adapting to new technologies, and I&#39;m always excited to take on new challenges.
             </p>
           </div>
           <div className="ml-8">

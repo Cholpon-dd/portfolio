@@ -1,3 +1,7 @@
+"use client"
+import Footer from '@/components/Footer'
+import Navbar from '@/components/Navbar'
+import {ThemeProvider} from 'next-themes'
 import './globals.css'
 
 export const metadata = {
@@ -12,7 +16,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-[#ece7f4] dark:bg-stone-900">
+        <ThemeProvider enableSystem={true} attribute="class">
+          <Navbar/>
+          {children}
+          <Footer/>
+        </ThemeProvider>
+      </body>
     </html>
   )
 }

@@ -26,7 +26,7 @@ const skills: Array<SkillItem> = [
 export default function Skills() {
   return (
     <section id="skills" className="my-16">
-      <h2 className="uppercase text-center text-3xl font-bold tracking-widest text-[#5d31b6] mt-4 ">
+      <h2 className="uppercase text-center text-3xl font-bold tracking-widest text-[#5d31b6] mt-4 dark:text-violet-400">
         My Skills & Experience
         <hr className="w-10 h-1 mx-auto my-4 bg-violet-500 border-0 rounded"></hr>
       </h2>
@@ -46,7 +46,9 @@ export default function Skills() {
                   className="w-10 h-10 lg:w-16 lg:h-16"
                 />
               </div>
-              <p className="mt-2 font-medium text-center text-violet-900">{skill.title}</p>
+              <p className="mt-2 text-violet-900 text-lg text-center  dark:text-violet-400">
+                {skill.title}
+              </p>
             </div>
           ))}
         </div>

@@ -35,31 +35,31 @@ const projects: Array<ProjItem> = [
   },
   {
     id: '4',
+    title: 'Chat App',
+    image: '/assets/projects/chat.png',
+    code: 'https://github.com/Cholpon-dd/chat-app',
+    demo: 'https://online-chat-socket-io.netlify.app/',
+  },
+  {
+    id: '5',
     title: 'E-commerce',
     image: '/assets/projects/shop.png',
     code: 'https://github.com/Cholpon-dd/tailwindCSS',
     demo: 'https://cholpon-dd.github.io/tailwindCSS/',
   },
   {
-    id: '5',
+    id: '6',
     title: 'Weather App',
     image: '/assets/projects/weather.png',
     code: 'https://github.com/Cholpon-dd/react-weather',
     demo: 'https://react-weather-app-rose.vercel.app/',
-  },
-  {
-    id: '6',
-    title: 'To do List',
-    image: '/assets/projects/todo.png',
-    code: 'https://github.com/Cholpon-dd/react-todo-list',
-    demo: 'https://react-todo-one-xi.vercel.app/',
   },
 ];
 
 export default function Projects() {
   return (
     <section id="projects" className="h-auto">
-      <h2 className="uppercase text-center text-3xl font-bold tracking-widest  text-[#5d31b6] mt-16">
+      <h2 className="uppercase text-center text-3xl font-bold tracking-widest  text-[#5d31b6] mt-16 dark:text-violet-400">
         What I have built
         <hr className="w-10 h-1 mx-auto my-4 bg-violet-500 border-0 rounded"></hr>
       </h2>

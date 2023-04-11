@@ -45,7 +45,7 @@ export default function Navbar() {
   return (
     <header
       className="w-full fixed mx-auto px-4 sm:px-20 top-0
-         z-50 shadow bg-[#5d31b6] dark:bg-stone-900 dark:border-b dark:border-stone-600  backdrop-filter backdrop-blur-sm bg-opacity-80"
+         z-50 shadow bg-[#5d31b6] dark:bg-[#343a40] dark:border-b dark:border-stone-600  backdrop-filter backdrop-blur-sm bg-opacity-80"
     >
       <div className="justify-between md:items-center md:flex">
         <div>

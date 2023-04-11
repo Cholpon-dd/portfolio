@@ -28,7 +28,7 @@ export default function Contacts() {
 
   return (
     <>
-      <h2 className="uppercase text-center text-3xl font-bold tracking-widest text-[#5d31b6] mt-4">
+      <h2 className="uppercase text-center text-3xl font-bold tracking-widest text-[#5d31b6] mt-4 dark:text-violet-400">
         Get in Touch
         <hr className="w-10 h-1 mx-auto my-4 bg-violet-500 border-0 rounded"></hr>
       </h2>
@@ -41,13 +41,15 @@ export default function Contacts() {
                   <Image src="/assets/contact.svg" alt="contact" width={400} height={300} />
                 </div>
                 <div>
-                  <p className="py-4 text-violet-800 text-2xl tracking-wide text-center font-semibold">
+                  <p className="py-4 text-violet-800 text-2xl tracking-wide text-center font-semibold dark:text-violet-400">
                     Frontend Developer
                   </p>
-                  <p className="py-2 text-gray-600 text-xl">
+                  <p className="py-2 text-gray-600 text-xl dark:text-gray-500">
                     Let&#39;s build something interesting together.
                   </p>
-                  <p className="py-2 text-gray-600 text-xl">Contact me and let&#39;s talk.</p>
+                  <p className="py-2 text-gray-600 text-xl dark:text-gray-500">
+                    Contact me and let&#39;s talk.
+                  </p>
                 </div>
                 <div>
                   <div className="flex items-center justify-between py-4">

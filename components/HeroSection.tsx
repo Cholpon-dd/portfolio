@@ -11,13 +11,13 @@ export default function HeroSection() {
             justify-center my-4 py-4 sm:py-32 md:py-24 md:flex-row md:space-x-4"
       >
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold text-[#5d31b6] mt-6md:mt-0 md:text-6xl mb-16 capitalize">
+          <h1 className="text-4xl font-bold text-[#5d31b6] mt-6md:mt-0 md:text-6xl mb-16 capitalize dark:text-violet-400">
             Hello, My name is
           </h1>
-          <span className="text-4xl iniline-block font-bold lg:text-6xl uppercase text-[#530981] dark:text-neutral-100">
+          <span className="text-6xl iniline-block font-bold lg:text-6xl uppercase text-[#530981] dark:text-neutral-100">
             Cholpon
           </span>
-          <h2 className="text-4xl font-semibold text-[#5d31b6] my-12 md:text-5xl">
+          <h2 className="text-4xl font-semibold text-[#5d31b6] my-12 md:text-5xl dark:text-violet-400">
             And I&#39;m a Frontend Developer
           </h2>
           <Link
